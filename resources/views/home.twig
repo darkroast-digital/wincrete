@@ -1,0 +1,313 @@
+{% extends 'layouts/app.twig' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <header class="home" id="home">
+        <div class="header-bar">
+            <div class="header-container">
+                <a href="https://www.facebook.com/wincrete.ca/" class="facebook" title="Facebook" target="_blank">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/wincrete-concrete-specialists-0a1639111/" class="linkedin" title="LinkedIn" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+                <p>Give us a call: <span>519.980.5632</span></p>
+            </div>
+        </div>
+
+        <!-- Nav -->
+        {% include 'partials/nav.twig' %}
+
+        <div class="hero">
+            <video autoplay loop>
+                <source src="assets/img/SlabScreed_x264_001.mp4" type="video/mp4">
+            </video>
+            <div class="hero-content">
+                <h1>Welcome to Wincrete Windsor</h1>
+                <ul>
+                    <li class="one"><span>.</span>Driveways</li>
+                    <li><span>.</span>Patios</li>
+                    <li><span>.</span>Sidewalks</li>
+                    <li class="four"><span>.</span>Porches</li>
+                    <li><span>.</span>More</li>
+                </ul>
+                <p>Where delivering quality service is always our top priority.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- End for Home/Hero -->
+
+    <section class="about" id="about">
+        
+            <div class="banner">
+                <div class="banner-content">
+                    <h4>Interested in what Wincrete can offer you?</h4>
+                    <a class="button" href="#contact">Get in touch</a>
+                </div>
+            </div>
+        <div class="about-content">
+            <div class="container">
+                <div class="column-6">
+                    <h2>Why Choose Wincrete?</h2>
+                    <p>At Wincrete we strive relentlessly to provide and create excellent concrete products to meet and exceed our clients wishes. Working efficiently and precisely we ensure our customers have an exceptional experience. With great pride we aim to execute every project to its maximum potential while maintaining a clean and safe job site. Wincrete aims at becoming an industry leader in residential decorative concrete solutions. We look forward to serving you and our community.</p>
+                    <p>We have fifteen years in the commercial/residential construction industry. Experienced in large scale construction and infrastructure including; road building and re surfacing, road paving, water main, drainage, excavating, demolition, heavy equipment,concrete footings, cement finishing, asphalt paving, water proofing, safety and traffic control measures for moving operations as well as long term site safety. Working throughout the years on residential concrete and construction work we apply job planning strategies to residential applications allowing us to finish projects time effectively and leaving customers properties clean and in excellent condition. </p>
+                    <img src="assets/img/main.jpg" draggable="false">
+                </div>
+                <div class="column-6">
+                    <ul>
+                        <li>
+                            <div class="type-of-service right-border">
+                                <h3>Concrete Cutting</h3>
+                                <div class="thumbnail">
+                                    <img src="assets/img/cutting.jpg" draggable="false">
+                                </div>
+                                <a href="#services" class="button">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="type-of-service">
+                                <h3>Concrete Sealing</h3>
+                                <div class="thumbnail">
+                                    <img src="assets/img/sealing.jpg" draggable="false">
+                                </div>
+                                <a href="#services" class="button">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="type-of-service right-border top-border">
+                                <h3>Concrete Removal</h3>
+                                <div class="thumbnail">
+                                    <img src="assets/img/removal2.jpg" draggable="false">
+                                </div>
+                                <a href="#services" class="button">More Info</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="type-of-service top-border">
+                                <h3>Property Grading</h3>
+                                <div class="thumbnail">
+                                    <img src="assets/img/propgrading.jpg" draggable="false">
+                                </div>
+                                <a href="#services" class="button">More Info</a>
+                            </div>
+                        </li>  
+                     </ul>
+                </div>
+            </div>
+
+            <div class="about-builds">
+                {% include 'partials/tabs.twig' %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- End for About -->
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-content container container--full">
+            
+            <div class="column-6">
+                <div class="wrapper left-content">
+                    <h3><span>1.</span> Designing</h3>
+                    <p>Wincrete offers you unique designs.  Our professional cement finishers are taking yearly courses and training in new application techniques and best practices to provide the customer best quality product.</p>
+                    <a class="button" href="#projects">View Our Work</a>
+                </div>
+            </div>
+            <div class="column-6">
+                <img src="assets/img/designing.jpg" draggable="false">
+            </div>
+            <div class="column-6">
+                <img src="assets/img/planning.jpg" draggable="false">
+            </div>
+            <div class="column-6">
+                <div class="wrapper right-content">
+                    <h3><span>2.</span> Planning</h3>
+                    <p>Here at Wincrete we pride ourselves on our fifteen years of experience.  This experience informs every part of our process, as such we plan our installs carefully.  All this forethought  ensures that you will have a product that you can be proud of.</p>
+                    <a class="button" href="#projects">View Our Work</a>
+                </div>
+            </div>
+        </div>
+
+            <div class="banner services-banner">
+                <div class="banner-content">
+                    <h4>We deliver professional service designed to meet your needs.</h4>
+                    <a class="button" href="#contact">Get In Touch</a>
+                </div>
+            </div>
+
+        <div class="services-content container container--full">
+            <div class="column-6">
+                <div class="wrapper left-content">
+                    <h3><span>3.</span> Construction</h3>
+                    <p>Wincrete uses the highest quality materials available.  This is to ensure that we deliver quality and dependability.  We offer quick and clean service.</p>
+                    <a class="button" href="#projects">View Our Work</a>
+                </div>
+            </div>
+            <div class="column-6">
+                <img src="assets/img/construction.jpg" draggable="false">
+            </div>
+            <div class="column-6">
+                <img src="assets/img/quality-control.jpg" draggable="false">
+            </div>
+            <div class="column-6">
+                <div class="wrapper right-content">
+                    <h3><span>4.</span> Quality Control</h3>
+                    <p>Thanks to our meticulous process Wincrete is sure to deliver a product with no faults.  We strive for quality and aim to deliver on that goal.</p>
+                    <a class="button" href="#projects">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End for Services -->
+
+    <section class="projects" id="projects">
+        <div class="projects-content">
+            <h2>Recent Projects</h2>
+            <div class="recent-projects container container--full">     
+                <ul>
+                    <li>
+                        <div class="column-3">
+                            <div class="image-container">
+                                <img src="assets/img/recent-project-1.jpg" draggable="false">
+                                <div class="after">
+                                    <p>Project One</p>
+                                    <button class="modal__trigger"><img src="assets/img/vision.png"> Zoom</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="column-3">
+                            <div class="image-container">
+                                <img src="assets/img/recent-project-2.jpg" draggable="false">
+                                <div class="after">
+                                    <p>Project Two</p>
+                                    <button class="modal__trigger"><img src="assets/img/vision.png"> Zoom</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="column-3">
+                            <div class="image-container">
+                                <img src="assets/img/recent-project-3.jpg" draggable="false">
+                                <div class="after">
+                                    <p>Project Three</p>
+                                    <button class="modal__trigger"><img src="assets/img/vision.png"> Zoom</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="column-3">
+                            <div class="image-container">
+                                <img src="assets/img/recent-project-4.jpg" draggable="false">
+                                <div class="after">
+                                    <p>Project Four</p>
+                                    <button class="modal__trigger"><img src="assets/img/vision.png"> Zoom</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="process-content">
+            <h2>Our Process</h2>
+            <div class="process-thumbnails">
+                <div class="gallery-container container">
+                    {% for item in gallery %}
+                        <div class="column-3">
+                            <img src="assets/img/{{ item.name }}.jpg" draggable="false" class="modal__trigger">
+                        </div>
+                    {% endfor %}
+                </div>
+
+                <div class="lightbox">
+                    <div class="lightbox_content">
+                        <img src="">
+                        <span class="prev">&#10094;</span>
+                        <span class="next">&#10095;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End for Projects -->
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Want to start your next project?  Contact us today, and find out how we can help.</p>
+        <div class="contact-content container">
+            <div class="contact-form column-6">
+                <form action="{{ path_for('home') }}" method="post" class="email-form">
+                    <label for="name">Your Name (required)</label>
+                    <input type="text" name="name" required id="name">
+                    <label for="email">Your Email (required)</label>
+                    <input type="email" name="email" required id="email">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-info column-6">
+                <p>For basic inquires please feel free to send us a message and we will try to get back to you within 1 business day. To speak with us today feel free to give us a call.</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Call us</td>
+                            <td>519.980.5632</td>
+                        </tr>
+                        <tr>
+                            <td>Email us</td>
+                            <td>Contact@staging.darkroast.co</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End for Contact -->
+
+    <section class="footer">
+        <footer class="footer-content container">
+            <div class="column-3">
+                <h4>About Wincrete</h4>
+                <p>At Wincrete we strive for quality. We only use the best materials available to achieve best possible quality giving you the piece of mind that your new project will last the test of time.</p>
+                <p>There is no job that is too big or too small for us to handle. Get in touch with us today, and find out what we can offer you.</p>
+            </div>
+            <div class="column-3"></div>
+            <div class="column-3">
+                <h4>Get in touch</h4>
+                <p><i class="fa fa-phone-square"></i> 519.980.5632</p>
+                <p><i class="fa fa-envelope"></i>contact@staging.darkroast.co</p>
+            </div>
+            <div class="column-3">
+                <h4>Business hours</h4>
+                <ul>
+                    <li>Monday-Friday: <span>9am to 5 pm</span></li>
+                    <li>Saturday: <span>10am to 2pm</span></li>
+                    <li>Sunday: <span>Closed</span></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <!-- End for Footer -->
+
+    <!-- Arrow to top -->
+    <a href="#home" class="back-to-top on">
+        <span class="go-up">
+            <i class="fa fa-arrow-up"></i>
+        </span>
+    </a>
+
+{% endblock %}
